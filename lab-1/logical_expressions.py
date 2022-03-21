@@ -1,20 +1,7 @@
 #  variables: a-z
-from cmath import exp
-from re import L
 import string
-from textwrap import indent
+import random
 variables = string.ascii_lowercase
-# & | >
-# ()
-# ~ -> 4
-# ^ -> 3
-# & | -> 2
-# > 1
-
-n = ['~']
-p = ['^']
-c = ['&', '|']
-e = ['>']
 
 
 def check(expression):
@@ -152,4 +139,28 @@ def tautology(expr):
     return True
 
 
-print(tautology("abc|>"))
+def onp_logical_expression_generator(n):
+    if n > len(variables):
+        # to many variables
+        return ""
+    operators_counter = n-1
+    operators = ['|', '&', '>']
+    logical_expression = ""
+    i = 0
+    while i < n:
+        logical_expression += variables[i]
+        i += 1
+    for i in range(operators_counter):
+        logical_expression += operators[random.randint(0, len(operators)-1)]
+    return logical_expression
+
+
+def onp_tautology_generator(n):
+    logical_expression = ""
+    while True:
+        logical_expression = onp_logical_expression_generator(n)
+        if tautology(logical_expression):
+            return logical_expression
+
+
+print(onp_tautology_generator(10))
