@@ -1,0 +1,41 @@
+wlacz wszystkie swiatla na parterze
+05/06/2022, 13:46:23 >> parter/groundFloor/light/up/kitchen on
+05/06/2022, 13:46:23 >> parter/groundFloor/light/OnWindow/livingroom on
+05/06/2022, 13:46:23 >> parter/groundFloor/light/OnWindow/kitchen on
+05/06/2022, 13:46:23 >> parter/groundFloor/light/ceiling/kitchen on
+05/06/2022, 13:46:23 >> parter/groundFloor/light/upCupboards/kitchen on
+05/06/2022, 13:46:23 >> parter/groundFloor/light/ceiling/bathroom on
+wylacz wszystkie swiatla na pierwszym pietrze
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloor/light/up/livingroom off
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloor/light/right/livingroom off
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloor/light/right/bedroom off
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloor/light/right/bedroom off
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloor/light/onTable/livingroom off
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloor/night/light/bedroom off
+05/06/2022, 13:46:36 >> pierwsze pietro/firstFloorlight/ceiling/bathroom off
+zmien wszedzie swiatla na drugim pietrze
+05/06/2022, 13:46:54 >> drugie pietro/secondFloor/light/up/bathroom toggle
+05/06/2022, 13:46:54 >> drugie pietro/secondFloor/light/up/bedroom toggle
+05/06/2022, 13:46:54 >> drugie pietro/secondFloor/light/up/kitchen toggle
+05/06/2022, 13:46:54 >> drugie pietro/light/right/bedroom toggle
+05/06/2022, 13:46:54 >> drugie pietro/light/left/livingroom toggle
+05/06/2022, 13:46:54 >> drugie pietro/light/left/bedroom toggle
+05/06/2022, 13:46:54 >> drugie pietro/light/onTable/kitchen toggle
+05/06/2022, 13:46:54 >> drugie pietro/secondFloor/light/ceiling/kitchen toggle
+05/06/2022, 13:46:54 >> drugie pietro/secondFloor/night/light/bedroom toggle
+05/06/2022, 13:46:54 >> drugie pietro/secondFloor/light/ceiling/bathroom toggle
+wlacz lampe prawa w salonie na pierwszym pietrze
+05/06/2022, 13:47:51 >> pierwsze pietro/salon/firstFloor/light/right/livingroom off
+uruchom lampe lewa na drugim pietrze
+uruchom lampe lewa na drugim pietrze w salonie
+05/06/2022, 13:48:27 >> drugie pietro/salon/light/left/livingroom on
+wlacz oswietlenie sufitu w kuchni na drugim pietrze
+05/06/2022, 13:48:43 >> drugie pietro/kuchnia/secondFloor/light/ceiling/kitchen on
+zgas wszedzie swiatlo na pierwszym pietrze
+wyklucz calkowicie swiatlo na parterze
+05/06/2022, 13:49:51 >> parter/groundFloor/light/up/kitchen off
+05/06/2022, 13:49:51 >> parter/groundFloor/light/OnWindow/livingroom off
+05/06/2022, 13:49:51 >> parter/groundFloor/light/OnWindow/kitchen off
+05/06/2022, 13:49:51 >> parter/groundFloor/light/ceiling/kitchen off
+05/06/2022, 13:49:51 >> parter/groundFloor/light/upCupboards/kitchen off
+05/06/2022, 13:49:51 >> parter/groundFloor/light/ceiling/bathroom off
